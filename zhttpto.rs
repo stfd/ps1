@@ -76,7 +76,7 @@ fn main() {
             {
                 let response: ~str = 
                 ~"HTTP/1.1 403 Forbidden\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n
-                 <doctype !html><html><head><title>Hello, Rust!</title>
+                 <doctype !html><html><head><title>403 Error</title>
                  <style>body { background-color: #111; color: #FFEEAA }
                  </style></head>
                  <body>
